@@ -386,6 +386,14 @@ table.sens td.cell { text-align: right; min-width: 70px; }
       <div class="seg" data-f="bairro" id="bairroSeg" role="group" aria-labelledby="lb-bairro"></div></div>
     <div class="fgroup"><label class="flabel" for="fq">Quartos</label>
       <select id="fq"><option value="0">Qualquer</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select></div>
+    <div class="fgroup"><span class="flabel" id="lb-mob">Mobiliado</span>
+      <div class="seg" data-f="mob" role="group" aria-labelledby="lb-mob" title="Como o portal informa no anúncio">
+        <button data-v="todos">Todos</button><button data-v="sim">Mobiliado</button><button data-v="nao">Não mobiliado</button>
+      </div></div>
+    <div class="fgroup"><span class="flabel" id="lb-ar">Ar-condicionado</span>
+      <div class="seg" data-f="ar" role="group" aria-labelledby="lb-ar" title="Como o portal informa no anúncio; sem a informação conta como sem ar">
+        <button data-v="todos">Todos</button><button data-v="sim">Com ar</button><button data-v="nao">Sem ar / não informado</button>
+      </div></div>
     <div class="fgroup"><label class="check"><input type="checkbox" id="fb"> <span>Só no orçamento</span> <span class="muted" id="fbCap"></span></label></div>
     <div class="fgroup" id="faGroup" hidden><label class="check" title="Pelas coordenadas do anúncio, não pelo bairro que o site informa"><input type="checkbox" id="fa"> <span>Só na minha área</span></label> <a class="muted" href="area.html" style="font-size:12px">ver mapa</a> <span class="muted" id="faNote" style="font-size:12px"></span></div>
     <div class="fgroup"><span class="flabel" id="lb-period">Período</span>
@@ -844,7 +852,7 @@ const SHORT = { "Vila Nova Conceição": "V. N. Conceição" };
 /** Destaques informados pelo portal (comodidades da busca e andar). */
 const feats = r => [r.furnished && "mobiliado", r.air_conditioning && "ar-condicionado", r.free_view && "vista livre", r.pool && (r.pool === "apto" ? "piscina privativa" : "piscina no prédio"), r.bbq && (r.bbq === "apto" ? "churrasqueira na varanda" : "churrasqueira no prédio"), r.floor >= 10 && `${r.floor}º andar`].filter(Boolean);
 const nbName = r => r.neighborhood_label || SHORT[r.neighborhood] || r.neighborhood;
-const DEFAULT_F = { period: "30", business: "venda", bairro: "todos", quartos: 0, budget: true, area: false };
+const DEFAULT_F = { period: "30", business: "venda", bairro: "todos", quartos: 0, budget: true, area: false, mob: "todos", ar: "todos" };
 let DATA = null, NBS = [], COLOR = {}, MED = {}, POLY = null;
 /** Ponto dentro do polígono [[lat, lon], ...] (mesmo algoritmo de imoveis/geo.py). */
 function insidePoly(lat, lon, P) {
@@ -907,6 +915,10 @@ function baseFilter(r, { business = F.business, ignoreBairro = false, ignoreBudg
   if (F.quartos && (r.bedrooms || 0) < F.quartos) return false;
   if (F.budget && !ignoreBudget && r.in_budget === false) return false;
   if (F.area && POLY && !r._inArea) return false;
+  if (F.mob === "sim" && r.furnished !== true) return false;
+  if (F.mob === "nao" && r.furnished === true) return false;
+  if (F.ar === "sim" && r.air_conditioning !== true) return false;
+  if (F.ar === "nao" && r.air_conditioning === true) return false;
   return true;
 }
 function computeMedians() {
@@ -1533,7 +1545,9 @@ function renderAlerts() {
 function activeFilterText() {
   const c = DATA.criteria, cap = F.business === "aluguel" ? c.max_rent : c.max_sale;
   return [BUSINESS[F.business], F.bairro === "todos" ? "todos os bairros" : F.bairro, F.quartos ? F.quartos + "+ quartos" : "qualquer nº de quartos",
-    F.budget ? `só orçamento (≤ ${FMT.brlc(cap)}${F.business === "aluguel" ? "/mês" : ""})` : "sem filtro de orçamento", ...(F.area && POLY ? ["só na minha área"] : []), periodLabel()].join(" · ");
+    F.budget ? `só orçamento (≤ ${FMT.brlc(cap)}${F.business === "aluguel" ? "/mês" : ""})` : "sem filtro de orçamento", ...(F.area && POLY ? ["só na minha área"] : []),
+    ...(F.mob === "sim" ? ["mobiliado"] : F.mob === "nao" ? ["não mobiliado"] : []),
+    ...(F.ar === "sim" ? ["com ar"] : F.ar === "nao" ? ["sem ar / não informado"] : []), periodLabel()].join(" · ");
 }
 function renderFilters() {
   $("#bairroSeg").replaceChildren(h("button", { "data-v": "todos" }, "Todos"),
@@ -1560,7 +1574,7 @@ function renderFilters() {
   $("#activeFilters").replaceChildren(h("span", { class: "flabel" }, "Filtros ativos:"),
     ...activeFilterText().split(" · ").map(t => h("span", { class: "tag" }, t)),
     h("button", { class: "btn sm", type: "button", disabled: !changed || null, onclick: () => { Object.assign(F, DEFAULT_F); PAGE = 0; update(); } }, "Restaurar padrão"));
-  $("#fToggleSum").textContent = [BUSINESS[F.business], F.bairro === "todos" ? "todos os bairros" : SHORT[F.bairro] || F.bairro, F.quartos ? F.quartos + "+ qts" : "", F.budget ? "no orçamento" : "", F.area && POLY ? "minha área" : "", periodLabel()].filter(Boolean).join(" · ");
+  $("#fToggleSum").textContent = [BUSINESS[F.business], F.bairro === "todos" ? "todos os bairros" : SHORT[F.bairro] || F.bairro, F.quartos ? F.quartos + "+ qts" : "", F.budget ? "no orçamento" : "", F.area && POLY ? "minha área" : "", F.mob === "sim" ? "mobiliado" : F.mob === "nao" ? "não mobiliado" : "", F.ar === "sim" ? "com ar" : F.ar === "nao" ? "sem ar" : "", periodLabel()].filter(Boolean).join(" · ");
 }
 
 /* =====================================================================
@@ -2409,6 +2423,13 @@ new ResizeObserver(() => { const w = $("#main").clientWidth; if (!DATA || w === 
   POLY = (DATA.criteria.area_polygon || []).length >= 3 ? DATA.criteria.area_polygon : null;
   for (const r of DATA.listings) { r.neighborhood = (r.neighborhood || "").trim(); r._inArea = !!(POLY && r.lat && r.lon && insidePoly(r.lat, r.lon, POLY)); }
   $("#faGroup").hidden = !POLY;
+  // Abre no negócio monitorado (quem só aluga não começa em "Comprar", vazio) e esconde os negócios sem dados.
+  const bz = new Set((DATA.criteria.businesses || []).concat(DATA.listings.some(r => r.business === "leilao") ? ["leilao"] : []));
+  if (bz.size) {
+    DEFAULT_F.business = [...bz][0];
+    if (!bz.has(F.business)) F.business = DEFAULT_F.business;
+    document.querySelectorAll('.seg[data-f="business"] button').forEach(b => { b.hidden = !bz.has(b.dataset.v); });
+  }
   NBS = DATA.criteria.neighborhoods;
   ["var(--s1)", "var(--s2)", "var(--s3)"].forEach((c, i) => { if (NBS[i]) COLOR[NBS[i]] = c; });
   NBS.slice(3).forEach(nb => COLOR[nb] = "var(--neutral-mark)");   // paleta validada para até 3 bairros
