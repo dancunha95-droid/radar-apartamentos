@@ -90,7 +90,10 @@ transacoes:
 # O QuintoAndar busca por retângulo: com a área ativa, cobre o polígono inteiro; sem ela, só os bairros que têm
 # retângulo em imoveis/sources/quintoandar.py (VIEWPORTS) — para outros bairros, ative a área ou inclua o retângulo.
 area_de_interesse:
-  ativo: false
+  ativo: true
   avisar_sem_coordenadas: true   # anúncio sem localização passa (raro)
-  bairros_extras: []             # outros bairros consultados no ZAP/Viva Real, valendo só o que cair na área
-  poligono: []
+  bairros_extras: [Cerqueira César, Jardim América, Jardim Europa, Jardim Paulistano, Pinheiros]   # valendo só o que cair na área
+  poligono: [[-23.56343, -46.67589], [-23.55830, -46.66743], [-23.56239, -46.66280], [-23.56601, -46.65836],
+             [-23.57095, -46.66336], [-23.57665, -46.67108], [-23.57996, -46.67091], [-23.58363, -46.68333],
+             [-23.58064, -46.68436], [-23.57822, -46.68561], [-23.57110, -46.69018], [-23.56638, -46.68104],
+             [-23.56493, -46.67816]]
