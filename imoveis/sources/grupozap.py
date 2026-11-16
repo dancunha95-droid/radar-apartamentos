@@ -112,6 +112,8 @@ def parse_listing(item: dict, source: str, business: str) -> Listing | None:
         parking=first_int(lst.get("parkingSpaces")),
         floor=(first_int(lst.get("unitFloor")) or None),
         air_conditioning=True if "AIR_CONDITIONING" in (lst.get("amenities") or []) else None,
+        # FURNISHED = mobiliado (PLANNED_FURNITURE são só armários planejados). Sondagem 16/11: ~26% dos aluguéis.
+        furnished=True if "FURNISHED" in (lst.get("amenities") or []) else None,
         **_leisure(set(lst.get("amenities") or [])),
         **_coords(addr),
     )

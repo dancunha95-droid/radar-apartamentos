@@ -31,7 +31,7 @@ DEFAULT_VIEWPORT = {"north": -23.565, "south": -23.605, "east": -46.655, "west":
 FIELDS = [
     "id", "area", "rentPrice", "totalCost", "salePrice", "condoIptu", "address", "regionName",
     "type", "forRent", "forSale", "bedrooms", "parkingSpaces", "neighbourhood", "location", "amenities",
-    "installations",
+    "installations", "isFurnished",
 ]
 
 
@@ -83,6 +83,7 @@ def parse_house(h: dict, business: str) -> Listing | None:
         lon=to_float((h.get("location") or {}).get("lon")),
         air_conditioning=True if "AR_CONDICIONADO" in (h.get("amenities") or []) else None,
         free_view=True if "VISTA_LIVRE" in (h.get("amenities") or []) else None,
+        furnished=h.get("isFurnished") if isinstance(h.get("isFurnished"), bool) else None,   # ~45% True (16/11)
         **_leisure(set(h.get("amenities") or []), set(h.get("installations") or [])),
     )
 

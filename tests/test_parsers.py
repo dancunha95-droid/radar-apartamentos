@@ -1109,3 +1109,28 @@ def test_auction_digest(tmp_path, monkeypatch):
     assert "avaliação R$ 2.400.000 (−33%)" in text
     assert "vs. 6 vendas no prédio (ITBI)" in text and "⚠️ ocupado" in text
     assert "0 anúncios novos de compra" in text                           # leilão não conta como anúncio de compra
+
+
+def test_furnished_and_ac_requirements(tmp_path):
+    """16/11: mobiliado (ZAP/VR: FURNISHED; QuintoAndar: isFurnished) e ar-condicionado obrigatórios nos avisos."""
+    import copy
+    from imoveis.common import Config
+    from imoveis.sources import grupozap, quintoandar
+    item = copy.deepcopy(ZAP_ITEM)
+    lst = item.get("listing", item)
+    lst["amenities"] = ["FURNISHED", "AIR_CONDITIONING"]
+    z = grupozap.parse_listing(item, "zap", "aluguel")
+    assert z.furnished is True and z.air_conditioning is True
+    lst["amenities"] = ["PLANNED_FURNITURE"]                       # armários planejados não são mobília
+    assert grupozap.parse_listing(item, "zap", "aluguel").furnished is None
+    base = {"id": 9, "area": 120, "type": "Apartamento", "rentPrice": 8000, "totalCost": 10000, "forRent": True,
+            "neighbourhood": "Jardim Paulista"}
+    assert quintoandar.parse_house({**base, "isFurnished": True}, "aluguel").furnished is True
+    assert quintoandar.parse_house({**base, "isFurnished": False}, "aluguel").furnished is False
+    assert quintoandar.parse_house(base, "aluguel").furnished is None
+    cfg = tmp_path / "c.yaml"
+    cfg.write_text("bairros: [Jardim Paulista]\navisos:\n  exigir_mobiliado: true\n  exigir_ar_condicionado: true\n",
+                   encoding="utf-8")
+    c = Config.load(cfg)
+    assert c.require_furnished and c.require_ac
+

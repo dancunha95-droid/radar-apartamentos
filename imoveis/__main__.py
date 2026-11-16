@@ -377,6 +377,8 @@ def run(dry_run: bool = False) -> int:
     big = lambda l: (((not auction_area or l.area is None or l.area >= auction_area) and in_area(l)) if l.business == "leilao" else
                      ((not cfg.alert_min_area or (l.area is not None and l.area >= cfg.alert_min_area))
                       and (not cfg.alert_min_bedrooms or l.bedrooms is None or l.bedrooms >= cfg.alert_min_bedrooms)
+                      and (not cfg.require_furnished or l.furnished is True)
+                      and (not cfg.require_ac or l.air_conditioning is True)
                       and in_area(l)))
     # Destaques (⭐ andar alto / vista livre / perto de parque) de quem pode gerar aviso: dados da busca para todos;
     # descrição (página do anúncio) só dos primeiros 20.

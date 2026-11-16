@@ -76,6 +76,7 @@ class Listing:
     geo_approx: bool = False
     air_conditioning: bool | None = None   # comodidade informada pelo portal (True) ou desconhecido (None)
     free_view: bool | None = None          # "vista livre" informada pelo portal (QuintoAndar)
+    furnished: bool | None = None          # mobiliado: True/False informado pelo portal, None desconhecido
     pool: str | None = None                # piscina informada pelo portal: "apto" (privativa) ou "predio" (condomínio)
     bbq: str | None = None                 # churrasqueira: "apto" (na varanda/da unidade) ou "predio" (condomínio)
     # Leilão / venda de banco (price = lance do próximo leilão ou preço de venda)
@@ -143,6 +144,8 @@ class Config:
     auction_costs: dict = field(default_factory=lambda: {"comissao_pct": 5, "itbi_pct": 3, "registro_pct": 1})
     park_max_m: float = 0                  # destaque "perto do parque": distância máxima até a borda (0 = desligado)
     highlight_kinds: frozenset | None = None   # quais destaques contam (avisos.destaques); None = padrão de details.py
+    require_furnished: bool = False        # avisos só de anúncios marcados como mobiliados pelo portal
+    require_ac: bool = False               # avisos só de anúncios com ar-condicionado informado pelo portal
 
     @property
     def neighborhoods_norm(self) -> set[str]:
@@ -198,6 +201,8 @@ class Config:
             auction_costs={"comissao_pct": 5, "itbi_pct": 3, "registro_pct": 1, **((raw.get("leiloes") or {}).get("custos") or {})},
             park_max_m=float((raw.get("avisos") or {}).get("perto_de_parque_m") or 0),
             highlight_kinds=_kinds((raw.get("avisos") or {}).get("destaques")),
+            require_furnished=bool((raw.get("avisos") or {}).get("exigir_mobiliado", False)),
+            require_ac=bool((raw.get("avisos") or {}).get("exigir_ar_condicionado", False)),
             area_polygon=(((raw.get("area_de_interesse") or {}).get("poligono") or [])
                           if (raw.get("area_de_interesse") or {}).get("ativo") else []),
             area_keep_unknown=bool((raw.get("area_de_interesse") or {}).get("avisar_sem_coordenadas", True)),

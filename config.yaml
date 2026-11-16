@@ -31,6 +31,8 @@ fontes:
 # Avisos (WhatsApp via CallMeBot; também Telegram, ntfy ou e-mail — ver README).
 avisos:
   area_minima_m2: 90           # só avisa imóveis com esta área ou mais
+  exigir_mobiliado: true       # só avisa anúncios marcados como mobiliados pelo portal
+  exigir_ar_condicionado: true # só avisa anúncios com ar-condicionado informado pelo portal
   quartos_minimos: 2           # e com pelo menos estes quartos (anúncio sem a informação é avisado)
   destacar_andar_alto_vista: false  # lê a descrição do anúncio (ZAP) para achar andar alto e vista livre
   perto_de_parque_m: 0         # destaque: até X m da borda de um parque de imoveis/parques.json (0 desliga)
