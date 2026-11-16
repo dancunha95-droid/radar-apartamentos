@@ -60,13 +60,13 @@ textarea { width: 100%; height: 70px; font: 11.5px/1.35 ui-monospace, Menlo, mon
 const HOME = null;
 const KEY = "radar:area:v1";
 // Rascunho inicial: a área do config.yaml (em dados.json) ou, sem ela, um retângulo em volta dos anúncios.
-let DRAFT = [[-23.575, -46.69], [-23.575, -46.66], [-23.60, -46.66], [-23.60, -46.69]];
+let DRAFT = [[-23.556, -46.682], [-23.556, -46.648], [-23.586, -46.648], [-23.586, -46.682]];   // Jardim Paulista
 let pts;
 try { pts = JSON.parse(localStorage.getItem(KEY) || "null"); } catch { pts = null; }
 const saved = Array.isArray(pts) && pts.length >= 3;
 if (!saved) pts = DRAFT.map(p => p.slice());
 
-const map = L.map("map", { zoomControl: true, tap: true }).setView([-23.5875, -46.675], 15);
+const map = L.map("map", { zoomControl: true, tap: true }).setView([-23.571, -46.665], 15);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
