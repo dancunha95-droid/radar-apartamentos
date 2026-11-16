@@ -387,9 +387,9 @@ def run(dry_run: bool = False) -> int:
         http_d = Http(1.0, 2.0)
         for i, l in enumerate(cand.values()):
             text = details.fetch_description(http_d, l) if cfg.highlight and i < 20 and not dry_run else None
-            tags = details.highlights(l, text, cfg.park_max_m)
+            tags = details.highlights(l, text, cfg.park_max_m, cfg.highlight_kinds)
             if tags:   # lazer do prédio só acompanha quem já tem destaque
-                stars[l.key] = tags + details.extras(l, text)
+                stars[l.key] = tags + details.extras(l, text, cfg.highlight_kinds)
     passes_new = lambda l: not cfg.new_require_highlight or l.key in stars or l.business == "leilao"   # leilão não exige destaque
     has_auction = any(l.business == "leilao" for l in new_items + [x[0] for x in drops])
     itbi_ix = leilao.ItbiIndex() if has_auction else None

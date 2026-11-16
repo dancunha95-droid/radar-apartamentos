@@ -97,6 +97,21 @@ class Listing:
         return asdict(self)
 
 
+HIGHLIGHT_KINDS = {"andar_alto", "vista_livre", "parque", "piscina_apto", "piscina_predio",
+                   "churrasqueira_apto", "churrasqueira_predio"}
+
+
+def _kinds(raw) -> frozenset | None:
+    """avisos.destaques do config.yaml → conjunto validado (None = padrão)."""
+    if not raw:
+        return None
+    kinds = frozenset(norm(str(k)).replace(" ", "_") for k in raw)
+    bad = kinds - HIGHLIGHT_KINDS
+    if bad:
+        raise ValueError(f"avisos.destaques: opção desconhecida {sorted(bad)}; use {sorted(HIGHLIGHT_KINDS)}")
+    return kinds
+
+
 @dataclass
 class Config:
     neighborhoods: list[str]
@@ -127,6 +142,7 @@ class Config:
     auction_min_area: float | None = None  # área mínima dos avisos de leilão (None = a dos avisos)
     auction_costs: dict = field(default_factory=lambda: {"comissao_pct": 5, "itbi_pct": 3, "registro_pct": 1})
     park_max_m: float = 0                  # destaque "perto do parque": distância máxima até a borda (0 = desligado)
+    highlight_kinds: frozenset | None = None   # quais destaques contam (avisos.destaques); None = padrão de details.py
 
     @property
     def neighborhoods_norm(self) -> set[str]:
@@ -175,11 +191,13 @@ class Config:
             digest=tuple(norm(b) for b in (raw.get("avisos") or {}).get("resumo_diario", [])),
             digest_hour=int((raw.get("avisos") or {}).get("resumo_diario_hora", 23)),
             dashboard_url=str(raw.get("painel_url") or ""),
-            highlight=bool((raw.get("avisos") or {}).get("destacar_andar_alto_vista", False)),
+            highlight=bool((raw.get("avisos") or {}).get("destacar_andar_alto_vista", False)
+                           or (raw.get("avisos") or {}).get("destaques")),
             new_require_highlight=bool((raw.get("avisos") or {}).get("novos_so_com_destaque", False)),
             auction_min_area=(raw.get("leiloes") or {}).get("area_minima_m2"),
             auction_costs={"comissao_pct": 5, "itbi_pct": 3, "registro_pct": 1, **((raw.get("leiloes") or {}).get("custos") or {})},
             park_max_m=float((raw.get("avisos") or {}).get("perto_de_parque_m") or 0),
+            highlight_kinds=_kinds((raw.get("avisos") or {}).get("destaques")),
             area_polygon=(((raw.get("area_de_interesse") or {}).get("poligono") or [])
                           if (raw.get("area_de_interesse") or {}).get("ativo") else []),
             area_keep_unknown=bool((raw.get("area_de_interesse") or {}).get("avisar_sem_coordenadas", True)),

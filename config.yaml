@@ -1,48 +1,51 @@
 # Critérios de busca — edite aqui e faça commit; a próxima coleta já usa os novos valores.
-# Os valores abaixo são um EXEMPLO (zona sul de São Paulo): troque pelos seus.
+# Configurado para aluguel no Jardim Paulista.
 
 bairros:                   # nomes como aparecem nos portais (ZAP/Viva Real)
-  - Vila Nova Conceição
-  - Itaim Bibi
+  - Jardim Paulista
 cidade: São Paulo
 estado: SP
 
-area_minima_m2: 100        # o painel mostra a partir desta área
+area_minima_m2: 70         # o painel mostra a partir desta área
 
 # Tipos aceitos (apartamento inclui cobertura, duplex, flat etc.)
 tipos: [apartamento]
 
 # Comprar e/ou alugar
-negocios: [venda, aluguel]
+negocios: [aluguel]
 
 # Orçamento (null = sem limite). Vale para os AVISOS; o painel mostra o mercado inteiro (filtro "Só no orçamento").
 # Aluguel: valor total mensal (aluguel + condomínio + IPTU quando disponível).
-preco_max_venda: 2000000
-preco_max_aluguel: 15000
+preco_max_venda: null
+preco_max_aluguel: 12000
 
 # Sites monitorados (desligue algum colocando false)
 fontes:
   zap: true
   vivareal: true
   quintoandar: true
-  zuk: true       # Portal Zuk (leilões judiciais e de bancos)
-  mega: true      # Mega Leilões (judicial e extrajudicial)
-  caixa: true     # imóveis retomados da Caixa (lista oficial; o estoque fica quase todo fora das regiões nobres)
+  zuk: false      # Portal Zuk (leilões judiciais e de bancos)
+  mega: false     # Mega Leilões (judicial e extrajudicial)
+  caixa: false    # imóveis retomados da Caixa (lista oficial; o estoque fica quase todo fora das regiões nobres)
 
 # Avisos (WhatsApp via CallMeBot; também Telegram, ntfy ou e-mail — ver README).
 avisos:
-  area_minima_m2: 120          # só avisa imóveis com esta área ou mais
-  quartos_minimos: 3           # e com pelo menos estes quartos (anúncio sem a informação é avisado)
-  destacar_andar_alto_vista: true   # lê a descrição do anúncio (ZAP) para achar andar alto e vista livre
-  perto_de_parque_m: 500       # destaque: até X m da borda de um parque de imoveis/parques.json (0 desliga)
+  area_minima_m2: 90           # só avisa imóveis com esta área ou mais
+  quartos_minimos: 2           # e com pelo menos estes quartos (anúncio sem a informação é avisado)
+  destacar_andar_alto_vista: false  # lê a descrição do anúncio (ZAP) para achar andar alto e vista livre
+  perto_de_parque_m: 0         # destaque: até X m da borda de um parque de imoveis/parques.json (0 desliga)
   # true: anúncio novo só avisa com pelo menos um destaque — andar alto, vista livre, perto de parque, piscina
   # privativa ou churrasqueira do apartamento (piscina/churrasqueira do prédio só acompanham, não contam).
   # false: avisa todo anúncio novo que passe nos filtros; os destaques só marcam com ⭐.
   novos_so_com_destaque: false
-  imediato: [aluguel]          # avisados a cada coleta: anúncio novo e queda de preço
-  resumo_diario: [venda, leilao]   # uma mensagem por dia: novos (com destaque, se exigido) e quedas de preço
+  # Quais destaques contam (⭐). Opções: andar_alto, vista_livre, parque, piscina_apto, piscina_predio,
+  # churrasqueira_apto, churrasqueira_predio. Sem esta lista: andar alto, vista livre, parque e lazer do apto.
+  # "piscina_predio" também marca piscina privativa.
+  destaques: [piscina_predio, churrasqueira_apto]
+  imediato: []                 # avisados a cada coleta: anúncio novo e queda de preço
+  resumo_diario: [aluguel]     # uma mensagem por dia: novos (com destaque, se exigido) e quedas de preço
   resumo_diario_hora: 19       # enviado na 1ª coleta a partir desta hora; cobre das 19h de ontem às 19h de hoje
-painel_url: https://SEU-USUARIO.github.io/SEU-REPOSITORIO/   # aparece no fim do resumo diário
+painel_url: https://dancunha95-droid.github.io/radar-apartamentos/   # aparece no fim do resumo diário
 
 # Leilões (Zuk, Mega Leilões, Caixa) — critérios próprios, mais amplos que os de compra: bairros/área de interesse,
 # área mínima abaixo (área não informada passa), custo total estimado até preco_max_venda, sem exigir destaque nem
@@ -56,14 +59,14 @@ leiloes:
 
 # Aviso de queda de preço de um anúncio já visto: X% ou mais (mesmos filtros dos avisos de novos; não precisa
 # de destaque). Quedas em degraus somam (compara com o maior preço desde o último aviso de queda).
-alerta_queda_preco_pct: 10
+alerta_queda_preco_pct: 5
 
 # R$/m² vs. mediana dos anúncios do mesmo bairro, negócio e faixa de área (aluguel: valor total por m²).
 # Com avisar: true, anúncio X% ou mais abaixo da mediana gera aviso próprio ("💎"); com false, a diferença só
 # aparece como informação nas mensagens. so_no_orcamento: compara só com os anúncios dentro do orçamento.
 alerta_abaixo_mediana:
   avisar: true
-  pct: 25
+  pct: 20
   amostra_minima: 15      # anúncios no grupo de comparação; com menos, compara com o bairro inteiro
   so_no_orcamento: true
 
@@ -72,9 +75,8 @@ alerta_abaixo_mediana:
 # Bairro de cada transação = bairro dos Correios do CEP (a coluna "Bairro" do ITBI é texto livre e falha muito).
 transacoes:
   bairros:            # nome exibido: bairros dos Correios que entram nele
-    Itaim Bibi: [Itaim Bibi, Chácara Itaim]
-    Vila Nova Conceição: [Vila Nova Conceição]
-  prefixos_cep: ["045"]          # pré-filtro pelos 3 primeiros dígitos do CEP dos seus bairros (acelera a leitura)
+    Jardim Paulista: [Jardim Paulista]
+  prefixos_cep: ["014"]          # pré-filtro pelos 3 primeiros dígitos do CEP dos seus bairros (acelera a leitura)
   janela_meses: 24               # meses guardados e exibidos (a partir do mês mais recente com dados)
   fator_area_util: 0.72          # área útil do anúncio ≈ 0,72 × área construída do ITBI (ver diagnostico/itbi)
   outliers_percentis: [1, 99]    # R$/m² fora desta faixa, por bairro, sai das métricas (fica marcado na tabela)

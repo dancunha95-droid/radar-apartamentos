@@ -99,25 +99,38 @@ def leisure(l: Listing, text: str | None) -> dict:
     return out
 
 
-def extras(l: Listing, text: str | None) -> list[str]:
+def extras(l: Listing, text: str | None, kinds: frozenset | None = None) -> list[str]:
     """Marcas que não contam como destaque (lazer do prédio): só aparecem junto de um destaque."""
-    return [LEISURE_TAG[n, v] for n, v in leisure(l, text).items() if v == "predio"]
+    return [LEISURE_TAG[n, v] for n, v in leisure(l, text).items()
+            if v == "predio" and not (kinds and f"{n}_predio" in kinds)]
 
 
-def highlights(l: Listing, text: str | None, park_max_m: float = 0) -> list[str]:
+# Destaques configuráveis (avisos.destaques no config.yaml). Sem a lista: andar alto, vista livre, parque e lazer do apto.
+DEFAULT_KINDS = frozenset({"andar_alto", "vista_livre", "parque", "piscina_apto", "churrasqueira_apto"})
+
+
+def counts(name: str, level: str, kinds: frozenset) -> bool:
+    """Lazer conta como destaque? O do prédio conta se configurado; o do apto também conta nesse caso (é melhor)."""
+    return f"{name}_{level}" in kinds or (level == "apto" and f"{name}_predio" in kinds)
+
+
+def highlights(l: Listing, text: str | None, park_max_m: float = 0, kinds: frozenset | None = None) -> list[str]:
     """Destaques que contam para os avisos: andar alto, vista livre, piscina, churrasqueira e perto de parque
-    (ar-condicionado não conta)."""
+    (ar-condicionado não conta). kinds limita quais contam (None = DEFAULT_KINDS)."""
+    kinds = DEFAULT_KINDS if kinds is None else kinds
     tags = []
-    if l.floor and l.floor >= HIGH_FLOOR:
+    if "andar_alto" in kinds and l.floor and l.floor >= HIGH_FLOOR:
         tags.append(f"andar alto ({l.floor}º)")
-    if getattr(l, "free_view", False):
+    if "vista_livre" in kinds and getattr(l, "free_view", False):
         tags.append("vista livre")
     for name, pat in PATTERNS.items():
-        if text and pat.search(text) and not any(t.startswith(name) for t in tags):
+        if name.replace(" ", "_") in kinds and text and pat.search(text) and not any(t.startswith(name) for t in tags):
             tags.append(name)
     for name, level in leisure(l, text).items():
-        if level == "apto":
+        if counts(name, level, kinds):
             tags.append(LEISURE_TAG[name, level])
+    if "parque" not in kinds:
+        park_max_m = 0
     park = geo.nearest_park(l.lat, l.lon, park_max_m)
     if park:
         tags.append(f"perto do {park[0]} ({round(park[1] / 50) * 50:.0f} m)" if park[1] else f"no {park[0]}")

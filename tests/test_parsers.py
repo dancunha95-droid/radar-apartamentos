@@ -1026,6 +1026,29 @@ def test_leisure_highlights():
     assert details.highlights(q, None) == ["churrasqueira na varanda"] and details.extras(q, None) == ["piscina no prédio"]
 
 
+def test_configured_highlight_kinds(tmp_path):
+    """avisos.destaques: piscina do prédio passa a contar; andar alto, vista e parque deixam de contar."""
+    import pytest
+    from imoveis import details
+    from imoveis.common import Config
+    kinds = frozenset({"piscina_predio", "churrasqueira_apto"})
+    L = Listing("zap", "1", "u", "aluguel", neighborhood="Jardim Paulista", area=100, floor=15)
+    text = "Andar alto, vista livre. Condomínio com piscina aquecida e churrasqueira"
+    assert details.highlights(L, text, 0, kinds) == ["piscina no prédio"]
+    assert details.extras(L, text, kinds) == ["churrasqueira no prédio"]           # sem repetir a piscina
+    assert details.highlights(L, "Piscina privativa e churrasqueira na varanda", 0, kinds) == \
+        ["piscina privativa", "churrasqueira na varanda"]                          # a do apto também conta
+    assert details.highlights(L, None, 0, kinds) == []                             # andar alto não conta
+    assert details.highlights(L, None) == ["andar alto (15º)"]                     # sem lista: padrão de antes
+    cfg = tmp_path / "c.yaml"
+    cfg.write_text("bairros: [Jardim Paulista]\navisos:\n  destaques: [piscina_predio, churrasqueira_apto]\n", encoding="utf-8")
+    c = Config.load(cfg)
+    assert c.highlight_kinds == kinds and c.highlight
+    cfg.write_text("bairros: [Jardim Paulista]\navisos:\n  destaques: [sauna]\n", encoding="utf-8")
+    with pytest.raises(ValueError):
+        Config.load(cfg)
+
+
 def test_auction_digest(tmp_path, monkeypatch):
     """Leilões: critérios próprios (≥120 m², custo total ≤ teto, sem destaque, sem mínimo de quartos), ocupado entra
     com alerta, 1ª coleta de uma fonte de leilão não é calada, e o resumo traz lances, custo total e comparações."""
