@@ -6,6 +6,9 @@ on:
   # Reserva: uma execução diária às 1h47 de Brasília, fora dos horários do cron-job.org, caso o serviço pare.
   schedule:
     - cron: "47 4 * * *"
+    # De 2 em 2 horas, das 7h17 às 23h17 de Brasília (UTC−3). O agendador do GitHub pode atrasar; o
+    # cron-job.org é mais pontual (PRIMEIROS-PASSOS, passo 9).
+    - cron: "17 0,2,10,12,14,16,18,20,22 * * *"
   workflow_dispatch:
     inputs:
       debug:

@@ -42,8 +42,8 @@ avisos:
   # churrasqueira_apto, churrasqueira_predio. Sem esta lista: andar alto, vista livre, parque e lazer do apto.
   # "piscina_predio" também marca piscina privativa.
   destaques: [piscina_predio, churrasqueira_apto]
-  imediato: []                 # avisados a cada coleta: anúncio novo e queda de preço
-  resumo_diario: [aluguel]     # uma mensagem por dia: novos (com destaque, se exigido) e quedas de preço
+  imediato: [aluguel]          # avisados a cada coleta (de 2 em 2 horas): anúncio novo e queda de preço
+  resumo_diario: []            # uma mensagem por dia: novos (com destaque, se exigido) e quedas de preço
   resumo_diario_hora: 19       # enviado na 1ª coleta a partir desta hora; cobre das 19h de ontem às 19h de hoje
 painel_url: https://dancunha95-droid.github.io/radar-apartamentos/   # aparece no fim do resumo diário
 
