@@ -1,8 +1,8 @@
 # Anúncios atuais dentro dos critérios
 
-Atualizado em 17/11/2026 15:19 UTC · 567 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
+Atualizado em 17/11/2026 17:30 UTC · 566 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
 
-## Aluguel (567)
+## Aluguel (566)
 
 | Bairro | Área | Preço | Quartos | Fonte | Link |
 |---|---|---|---|---|---|
@@ -120,7 +120,6 @@ Atualizado em 17/11/2026 15:19 UTC · 567 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 70 m² | R$ 7.300/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piscina-jardim-america-zona-sul-sao-paulo-sp-70m2-id-2894545893/) |
 | Jardim Paulista | 110 m² | R$ 7.306/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361673/) |
 | Jardim Paulista | 80 m² | R$ 7.320/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-80m2-id-2922757347/) |
-| Jardim Paulista | 100 m² | R$ 7.334/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-playground-jardim-paulista-zona-sul-sao-paulo-sp-100m2-id-2922439634/) |
 | Jardim Paulista | 75 m² | R$ 7.334/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-75m2-id-2920363049/) |
 | Jardim Paulista | 89 m² | R$ 7.336/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-89m2-id-2920361475/) |
 | Jardim Paulista | 110 m² | R$ 7.350/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920362152/) |
@@ -198,7 +197,6 @@ Atualizado em 17/11/2026 15:19 UTC · 567 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 90 m² | R$ 7.936/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-90m2-id-2920361299/) |
 | Jardim Paulista | 90 m² | R$ 7.937/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-90m2-id-2920362183/) |
 | Jardim Paulista | 85 m² | R$ 7.937/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-85m2-id-2920362182/) |
-| Jardim Paulista | 99 m² | R$ 7.951/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892841680) |
 | Jardim Paulista | 110 m² | R$ 7.960/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361763/) |
 | Cerqueira César | 85 m² | R$ 7.966/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894571235) |
 | Jardim Europa | 77 m² | R$ 7.967/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895642119) |
@@ -236,6 +234,7 @@ Atualizado em 17/11/2026 15:19 UTC · 567 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 95 m² | R$ 8.300/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-95m2-id-2920225852/) |
 | Jardim Paulista | 109 m² | R$ 8.324/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/893022980) |
 | Jardim Paulista | 160 m² | R$ 8.350/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-160m2-id-2920214784/) |
+| Jardim Paulista | 99 m² | R$ 8.355/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892841680) |
 | Consolação | 85 m² | R$ 8.371/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-america-zona-sul-sao-paulo-sp-85m2-id-2885560391/) |
 | Jardim Paulista | 98 m² | R$ 8.383/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-98m2-id-2922361191/) |
 | Jardim Paulista | 110 m² | R$ 8.390/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920360851/) |
@@ -344,7 +343,7 @@ Atualizado em 17/11/2026 15:19 UTC · 567 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 145 m² | R$ 9.425/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-america-zona-sul-sao-paulo-sp-145m2-id-2826618629/) |
 | Jardim Paulista | 105 m² | R$ 9.434/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-america-zona-sul-sao-paulo-sp-105m2-id-2875328591/) |
 | Consolação | 84 m² | R$ 9.436/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894705027) |
-| Jardim Paulista | 142 m² | R$ 9.478/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-142m2-id-2922987043/) |
+| Jardim Paulista | 142 m² | R$ 9.478/mês | 3 | vivareal | [abrir](https://www.vivareal.com.br/imovel/apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-com-garagem-142m2-aluguel-RS6850-id-2922987043/) |
 | Jardim Paulista | 80 m² | R$ 9.499/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piscina-jardim-america-zona-sul-sao-paulo-sp-80m2-id-2903121937/) |
 | Jardim Europa | 135 m² | R$ 9.500/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-itaim-bibi-zona-sul-sao-paulo-sp-135m2-id-2922878842/) |
 | Jardim Paulista | 80 m² | R$ 9.508/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895719151) |
