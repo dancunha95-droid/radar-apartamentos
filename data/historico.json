@@ -14,5 +14,21 @@
     "price": 10760
    }
   }
+ },
+ {
+  "date": "2026-11-17",
+  "rent_basis": "total",
+  "groups": {
+   "aluguel|Outros na área": {
+    "n": 413,
+    "ppm2": 121.07,
+    "price": 17000
+   },
+   "aluguel|Jardim Paulista": {
+    "n": 907,
+    "ppm2": 94.33,
+    "price": 10630
+   }
+  }
  }
 ]
