@@ -1,8 +1,8 @@
 # Anúncios atuais dentro dos critérios
 
-Atualizado em 19/11/2026 15:25 UTC · 591 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
+Atualizado em 19/11/2026 17:30 UTC · 590 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
 
-## Aluguel (591)
+## Aluguel (590)
 
 | Bairro | Área | Preço | Quartos | Fonte | Link |
 |---|---|---|---|---|---|
@@ -64,7 +64,6 @@ Atualizado em 19/11/2026 15:25 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 100 m² | R$ 6.434/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/893241276) |
 | Jardim Paulista | 80 m² | R$ 6.459/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894353348) |
 | Jardim Paulista | 87 m² | R$ 6.460/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-ar-condicionado-jardim-paulista-zona-sul-sao-paulo-sp-87m2-id-2922062317/) |
-| Jardim Paulista | 141 m² | R$ 6.502/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/893623580) |
 | Cerqueira César | 80 m² | R$ 6.529/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895827785) |
 | Cerqueira César | 78 m² | R$ 6.530/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892797750) |
 | Jardim Paulista | 90 m² | R$ 6.536/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895856017) |
@@ -112,7 +111,6 @@ Atualizado em 19/11/2026 15:25 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 70 m² | R$ 7.183/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-flat-1-quarto-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-70m2-id-2921245634/) |
 | Jardim Paulista | 111 m² | R$ 7.187/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/893183991) |
 | Consolação | 80 m² | R$ 7.196/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-area-de-servico-jardim-america-zona-sul-sao-paulo-sp-80m2-id-2901714070/) |
-| Jardim Paulista | 90 m² | R$ 7.200/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-90m2-id-2920361170/) |
 | Jardim Paulista | 110 m² | R$ 7.200/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920362660/) |
 | Jardim Paulista | 107 m² | R$ 7.200/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-107m2-id-2920360959/) |
 | Jardim Paulista | 110 m² | R$ 7.200/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920360607/) |
@@ -507,6 +505,7 @@ Atualizado em 19/11/2026 15:25 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 132 m² | R$ 11.282/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-132m2-id-2920361774/) |
 | Cerqueira César | 156 m² | R$ 11.282/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-piscina-jardim-america-zona-sul-sao-paulo-sp-156m2-id-2922113037/) |
 | Cerqueira César | 126 m² | R$ 11.293/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895658417) |
+| Jardim Paulista | 140 m² | R$ 11.300/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-jardim-paulista-zona-sul-sao-paulo-sp-140m2-id-2923492151/) |
 | Jardim Paulista | 150 m² | R$ 11.300/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-150m2-id-2920361758/) |
 | Jardim Paulista | 120 m² | R$ 11.320/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-120m2-id-2920362161/) |
 | Itaim Bibi | 130 m² | R$ 11.327/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895730167) |
@@ -523,7 +522,7 @@ Atualizado em 19/11/2026 15:25 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Europa | 70 m² | R$ 11.400/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-flat-2-quartos-mobiliado-itaim-bibi-zona-sul-sao-paulo-sp-70m2-id-2909048331/) |
 | Jardim Paulista | 204 m² | R$ 11.401/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895813982) |
 | Cerqueira César | 216 m² | R$ 11.409/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-216m2-id-2907009732/) |
-| Cerqueira César | 216 m² | R$ 11.409/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-216m2-id-2827020774/) |
+| Cerqueira César | 216 m² | R$ 11.409/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-copa-jardim-paulista-zona-sul-sao-paulo-sp-216m2-id-2827020774/) |
 | Jardim Paulista | 160 m² | R$ 11.440/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-lavanderia-coletiva-jardim-paulista-zona-sul-sao-paulo-sp-160m2-id-2922947037/) |
 | Jardim Paulista | 72 m² | R$ 11.450/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895633490) |
 | Jardim Paulista | 103 m² | R$ 11.451/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892870727) |
