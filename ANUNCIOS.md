@@ -1,8 +1,8 @@
 # Anúncios atuais dentro dos critérios
 
-Atualizado em 20/11/2026 15:23 UTC · 597 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
+Atualizado em 20/11/2026 17:24 UTC · 598 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
 
-## Aluguel (597)
+## Aluguel (598)
 
 | Bairro | Área | Preço | Quartos | Fonte | Link |
 |---|---|---|---|---|---|
@@ -184,6 +184,7 @@ Atualizado em 20/11/2026 15:23 UTC · 597 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 112 m² | R$ 7.750/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-112m2-id-2920360594/) |
 | Itaim Bibi | 94 m² | R$ 7.760/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892999400) |
 | Jardim Paulista | 93 m² | R$ 7.786/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894453033) |
+| Jardim Paulista | 82 m² | R$ 7.799/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-82m2-id-2920362274/) |
 | Jardim Paulista | 110 m² | R$ 7.800/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361669/) |
 | Jardim Paulista | 110 m² | R$ 7.800/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-varanda-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361761/) |
 | Jardim Paulista | 78 m² | R$ 7.800/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-mobiliado-jardim-america-zona-sul-sao-paulo-sp-78m2-id-2918741273/) |
