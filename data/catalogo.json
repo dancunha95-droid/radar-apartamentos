@@ -15537,6 +15537,36 @@
   "total_monthly": 11640.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-flat-2-quartos-jardim-europa-zona-oeste-sao-paulo-sp-70m2-id-2869855766/"
  },
+ "zap:aluguel:2871772386": {
+  "address": "Rua Cravinhos 51",
+  "air_conditioning": null,
+  "appraisal": null,
+  "area": 174.0,
+  "auction_kind": null,
+  "bbq": "predio",
+  "bedrooms": 3,
+  "business": "aluguel",
+  "condo": 2640.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": true,
+  "id": "2871772386",
+  "lat": -23.569,
+  "lon": -46.662,
+  "neighborhood": "Jardim Paulista",
+  "occupied": null,
+  "parking": 1,
+  "pool": "predio",
+  "price": 8500.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 11140.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-piscina-jardim-paulista-zona-sul-sao-paulo-sp-174m2-id-2871772386/"
+ },
  "zap:aluguel:2872173692": {
   "address": "Rua Haddock Lobo 1730",
   "air_conditioning": null,
@@ -15674,8 +15704,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2873408678",
-  "lat": -23.560657,
-  "lon": -46.671423,
+  "lat": -23.561277,
+  "lon": -46.671378,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 1,
@@ -19196,6 +19226,36 @@
   "total_monthly": 15875.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-lavanderia-coletiva-jardim-america-zona-sul-sao-paulo-sp-158m2-id-2897643916/"
  },
+ "zap:aluguel:2897753322": {
+  "address": "Alameda Tietê 588",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 173.0,
+  "auction_kind": null,
+  "bbq": "predio",
+  "bedrooms": 3,
+  "business": "aluguel",
+  "condo": 2649.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": true,
+  "id": "2897753322",
+  "lat": -23.56,
+  "lon": -46.668,
+  "neighborhood": "Cerqueira César",
+  "occupied": null,
+  "parking": 2,
+  "pool": null,
+  "price": 12000.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 14649.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-churrasqueira-jardim-america-zona-sul-sao-paulo-sp-173m2-id-2897753322/"
+ },
  "zap:aluguel:2898319144": {
   "address": "Rua da Consolação",
   "air_conditioning": null,
@@ -20353,8 +20413,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2904009698",
-  "lat": -23.560675,
-  "lon": -46.661463,
+  "lat": -23.56048,
+  "lon": -46.661574,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 3,
@@ -21613,8 +21673,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2908999048",
-  "lat": -23.567,
-  "lon": -46.657,
+  "lat": -23.568,
+  "lon": -46.656,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 1,
@@ -24569,7 +24629,7 @@
   "address": "Alameda Franca",
   "air_conditioning": true,
   "appraisal": null,
-  "area": 140.0,
+  "area": 137.0,
   "auction_kind": null,
   "bbq": null,
   "bedrooms": 3,
@@ -24593,7 +24653,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 9778.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-ar-condicionado-jardim-america-zona-sul-sao-paulo-sp-140m2-id-2916459441/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-ar-condicionado-jardim-america-zona-sul-sao-paulo-sp-137m2-id-2916459441/"
  },
  "zap:aluguel:2916467471": {
   "address": "",
@@ -26833,7 +26893,7 @@
   "geo_approx": true,
   "id": "2917814145",
   "lat": -23.571,
-  "lon": -46.661,
+  "lon": -46.662,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 1,
@@ -40872,7 +40932,7 @@
   "geo_approx": true,
   "id": "2920412578",
   "lat": -23.563,
-  "lon": -46.663,
+  "lon": -46.662,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 4,
@@ -41122,7 +41182,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920433434/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-quarto-wc-empregada-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920433434/"
  },
  "zap:aluguel:2920434907": {
   "address": "Alameda Itu 547",
@@ -41272,7 +41332,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-fogao-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2920438222/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-lavabo-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2920438222/"
  },
  "zap:aluguel:2920439759": {
   "address": "Alameda Campinas 701",
@@ -41482,7 +41542,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920448978/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-quarto-wc-empregada-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920448978/"
  },
  "zap:aluguel:2920461273": {
   "address": "Alameda Fernão Cardim 388",
@@ -47831,8 +47891,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2922113037",
-  "lat": -23.561,
-  "lon": -46.669,
+  "lat": -23.56,
+  "lon": -46.668,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 2,
@@ -51022,7 +51082,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922796849/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922796849/"
  },
  "zap:aluguel:2922796854": {
   "address": "Rua Queluz 109",
@@ -51292,7 +51352,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922798041/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922798041/"
  },
  "zap:aluguel:2922798072": {
   "address": "Rua Ouro Branco 101",
@@ -51412,7 +51472,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922799020/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-lavabo-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922799020/"
  },
  "zap:aluguel:2922799354": {
   "address": "Alameda Itu 78",
@@ -51652,7 +51712,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-quarto-wc-empregada-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922803462/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922803462/"
  },
  "zap:aluguel:2922803558": {
   "address": "Alameda Itu 78",
@@ -51862,7 +51922,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922804668/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922804668/"
  },
  "zap:aluguel:2922805459": {
   "address": "Alameda Joaquim Eugênio de Lima 961",
@@ -52222,7 +52282,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922806943/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-elevador-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922806943/"
  },
  "zap:aluguel:2922807247": {
   "address": "Alameda Campinas 708",
@@ -52432,7 +52492,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-hidromassagem-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922810605/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-varanda-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922810605/"
  },
  "zap:aluguel:2922810694": {
   "address": "Rua Queluz 109",
@@ -52522,7 +52582,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922810901/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922810901/"
  },
  "zap:aluguel:2922810970": {
   "address": "Rua Oscar Freire 802",
@@ -52642,7 +52702,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922811878/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922811878/"
  },
  "zap:aluguel:2922811890": {
   "address": "Rua Barão de Capanema 76",
@@ -53302,7 +53362,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922823645/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922823645/"
  },
  "zap:aluguel:2922823649": {
   "address": "Rua Pamplona 502",
@@ -56809,7 +56869,7 @@
   "geo_approx": true,
   "id": "2922875644",
   "lat": -23.574,
-  "lon": -46.657,
+  "lon": -46.658,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 2,
@@ -60118,7 +60178,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 9330.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-itaim-bibi-zona-sul-sao-paulo-sp-90m2-id-2922985541/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-varanda-itaim-bibi-zona-sul-sao-paulo-sp-90m2-id-2922985541/"
  },
  "zap:aluguel:2922987043": {
   "address": "Alameda Fernão Cardim 377",
@@ -62428,7 +62488,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 14697.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-ar-condicionado-cerqueira-cesar-centro-sao-paulo-sp-140m2-id-2923235764/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-area-de-servico-cerqueira-cesar-centro-sao-paulo-sp-140m2-id-2923235764/"
  },
  "zap:aluguel:2923236744": {
   "address": "Rua José Maria Lisboa 695",
@@ -62818,7 +62878,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12358.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-jardim-america-zona-sul-sao-paulo-sp-105m2-id-2923253853/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-jardim-jardim-america-zona-sul-sao-paulo-sp-105m2-id-2923253853/"
  },
  "zap:aluguel:2923253892": {
   "address": "Rua Haddock Lobo",
@@ -65308,7 +65368,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923418015/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923418015/"
  },
  "zap:aluguel:2923418157": {
   "address": "Rua Susano 139",
@@ -65458,7 +65518,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-varanda-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923420192/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923420192/"
  },
  "zap:aluguel:2923421091": {
   "address": "Alameda Itu 433",
@@ -65518,7 +65578,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923421394/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923421394/"
  },
  "zap:aluguel:2923425035": {
   "address": "Alameda Itu 433",
@@ -65548,7 +65608,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923425035/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923425035/"
  },
  "zap:aluguel:2923427949": {
   "address": "Alameda Itu 433",
@@ -65578,7 +65638,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923427949/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-jogos-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923427949/"
  },
  "zap:aluguel:2923435162": {
   "address": "",
@@ -66358,7 +66418,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18817.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-cozinha-jardim-america-zona-sul-sao-paulo-sp-198m2-id-2923560288/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-america-zona-sul-sao-paulo-sp-198m2-id-2923560288/"
  },
  "zap:aluguel:2923562658": {
   "address": "Alameda Franca 973",
@@ -67769,6 +67829,36 @@
   "title": "",
   "total_monthly": 15758.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-armario-de-cozinha-jardim-america-zona-sul-sao-paulo-sp-212m2-id-2923613933/"
+ },
+ "zap:aluguel:2923613934": {
+  "address": "Rua Haddock Lobo",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 80.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 1,
+  "business": "aluguel",
+  "condo": 1900.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": true,
+  "id": "2923613934",
+  "lat": -23.562,
+  "lon": -46.666,
+  "neighborhood": "Cerqueira César",
+  "occupied": null,
+  "parking": 0,
+  "pool": null,
+  "price": 7500.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 9400.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-elevador-jardim-paulista-zona-sul-sao-paulo-sp-80m2-id-2923613934/"
  },
  "zap:aluguel:2923618271": {
   "address": "Rua José Maria Lisboa 1000",
