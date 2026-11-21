@@ -1,8 +1,8 @@
 # Anúncios atuais dentro dos critérios
 
-Atualizado em 21/11/2026 19:18 UTC · 599 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
+Atualizado em 21/11/2026 21:06 UTC · 598 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
 
-## Aluguel (599)
+## Aluguel (598)
 
 | Bairro | Área | Preço | Quartos | Fonte | Link |
 |---|---|---|---|---|---|
@@ -358,7 +358,6 @@ Atualizado em 21/11/2026 19:18 UTC · 599 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 90 m² | R$ 9.520/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894527906) |
 | Jardim Paulista | 90 m² | R$ 9.530/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-90m2-id-2921334051/) |
 | Cerqueira César | 103 m² | R$ 9.540/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/892909524) |
-| Itaim Bibi | 105 m² | R$ 9.547/mês | 3 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895332180) |
 | Jardim Paulista | 110 m² | R$ 9.548/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2922875315/) |
 | Itaim Bibi | 130 m² | R$ 9.564/mês | 4 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/893153510) |
 | Jardim Paulista | 114 m² | R$ 9.600/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-114m2-id-2922005294/) |
