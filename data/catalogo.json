@@ -1316,7 +1316,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Europa",
-  "total_monthly": 11905.0,
+  "total_monthly": 11521.0,
   "url": "https://www.quintoandar.com.br/imovel/893192654"
  },
  "quintoandar:aluguel:893200251": {
@@ -8756,7 +8756,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 17824.0,
+  "total_monthly": 17472.0,
   "url": "https://www.quintoandar.com.br/imovel/895725817"
  },
  "quintoandar:aluguel:895729376": {
@@ -9266,7 +9266,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 8609.0,
+  "total_monthly": 8433.0,
   "url": "https://www.quintoandar.com.br/imovel/895752387"
  },
  "quintoandar:aluguel:895754799": {
@@ -9386,7 +9386,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 32418.0,
+  "total_monthly": 31442.0,
   "url": "https://www.quintoandar.com.br/imovel/895759908"
  },
  "quintoandar:aluguel:895760086": {
@@ -9536,7 +9536,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 5428.0,
+  "total_monthly": 5314.0,
   "url": "https://www.quintoandar.com.br/imovel/895769430"
  },
  "quintoandar:aluguel:895769588": {
@@ -9716,7 +9716,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Itaim Bibi",
-  "total_monthly": 11138.0,
+  "total_monthly": 10836.0,
   "url": "https://www.quintoandar.com.br/imovel/895774355"
  },
  "quintoandar:aluguel:895775244": {
@@ -10736,7 +10736,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 6548.0,
+  "total_monthly": 6413.0,
   "url": "https://www.quintoandar.com.br/imovel/895815352"
  },
  "quintoandar:aluguel:895816049": {
@@ -10916,7 +10916,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 15538.0,
+  "total_monthly": 15175.0,
   "url": "https://www.quintoandar.com.br/imovel/895827148"
  },
  "quintoandar:aluguel:895827785": {
@@ -15708,7 +15708,7 @@
   "lon": -46.662,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
-  "parking": 2,
+  "parking": 1,
   "pool": "predio",
   "price": 8500.0,
   "rounds": null,
@@ -15854,8 +15854,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2873408678",
-  "lat": -23.560657,
-  "lon": -46.671423,
+  "lat": -23.561277,
+  "lon": -46.671378,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 1,
@@ -16484,7 +16484,7 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2879899801",
-  "lat": -23.567,
+  "lat": -23.566,
   "lon": -46.663,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
@@ -17414,8 +17414,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2885582981",
-  "lat": -23.565,
-  "lon": -46.661,
+  "lat": -23.564,
+  "lon": -46.66,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 4,
@@ -21704,7 +21704,7 @@
   "geo_approx": true,
   "id": "2908581714",
   "lat": -23.565,
-  "lon": -46.669,
+  "lon": -46.668,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 1,
@@ -23622,8 +23622,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2914380450",
-  "lat": -23.564,
-  "lon": -46.671,
+  "lat": -23.563,
+  "lon": -46.67,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 2,
@@ -24402,8 +24402,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2916204330",
-  "lat": -23.566,
-  "lon": -46.658,
+  "lat": -23.558,
+  "lon": -46.667,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 1,
@@ -42322,7 +42322,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-varanda-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2920654658/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2920654658/"
  },
  "zap:aluguel:2920676438": {
   "address": "Rua Pamplona 502",
@@ -46151,8 +46151,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2921914369",
-  "lat": -23.565,
-  "lon": -46.657,
+  "lat": -23.566,
+  "lon": -46.656,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 2,
@@ -47441,8 +47441,8 @@
   "furnished": true,
   "geo_approx": true,
   "id": "2922011546",
-  "lat": -23.564,
-  "lon": -46.671,
+  "lat": -23.563,
+  "lon": -46.67,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 2,
@@ -50722,7 +50722,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922790401/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922790401/"
  },
  "zap:aluguel:2922790406": {
   "address": "Alameda Fernão Cardim 388",
@@ -50902,7 +50902,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922790972/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922790972/"
  },
  "zap:aluguel:2922791716": {
   "address": "Alameda Campinas 708",
@@ -55222,8 +55222,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2922857432",
-  "lat": -23.572484,
-  "lon": -46.655325,
+  "lat": -23.572019,
+  "lon": -46.654803,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 1,
@@ -55701,7 +55701,7 @@
   "geo_approx": true,
   "id": "2922860665",
   "lat": -23.565,
-  "lon": -46.669,
+  "lon": -46.668,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 1,
@@ -58907,8 +58907,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2922897468",
-  "lat": -23.581269,
-  "lon": -46.68091,
+  "lat": -23.581505,
+  "lon": -46.680858,
   "neighborhood": "Jardim Europa",
   "occupied": null,
   "parking": 3,
@@ -59237,8 +59237,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2922901009",
-  "lat": -23.565,
-  "lon": -46.661,
+  "lat": -23.564,
+  "lon": -46.66,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 4,
@@ -59878,7 +59878,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-interfone-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922969966/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922969966/"
  },
  "zap:aluguel:2922970757": {
   "address": "Rua Peixoto Gomide 596",
@@ -60118,7 +60118,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922978347/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-elevador-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2922978347/"
  },
  "zap:aluguel:2922978551": {
   "address": "Rua José Maria Lisboa 695",
@@ -61217,8 +61217,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2923027184",
-  "lat": -23.567107,
-  "lon": -46.654694,
+  "lat": -23.566988,
+  "lon": -46.65479,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 2,
@@ -63407,8 +63407,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2923281597",
-  "lat": -23.582315,
-  "lon": -46.679483,
+  "lat": -23.58185,
+  "lon": -46.679627,
   "neighborhood": "Jardim Europa",
   "occupied": null,
   "parking": 1,
@@ -65368,7 +65368,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 22850.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-jogos-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923412235/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-264m2-id-2923412235/"
  },
  "zap:aluguel:2923415282": {
   "address": "Rua Susano 139",
