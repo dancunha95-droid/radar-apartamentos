@@ -23,7 +23,7 @@ BAIRROS = ["Jardim Paulista", "Cerqueira César", "Jardim América", "Jardim Eur
 MAX = {"zap": 2400, "vivareal": 600}
 
 # Códigos de comodidade e trechos de texto que indicam água na unidade.
-CODE = re.compile(r"JACUZZI|HOT_?TUB|WHIRLPOOL|HYDRO|HIDRO|OFURO|BATH_?TUB|BANHEIRA|SPA|PRIVATE_POOL|PISCINA_PRIVATIVA",
+CODE = re.compile(r"JACUZZI|HOT_?TUB|WHIRLPOOL|HYDRO|HIDRO|OFURO|BATH_?TUB|BANHEIRA|(^|_)SPA($|_)|PRIVATE_POOL|PISCINA_PRIVATIVA",
                   re.I)
 TEXT = re.compile(r"ofur[oô]|jacuzz?i|hidromassagem|banheira|piscina privativa|spa privativo", re.I)
 
