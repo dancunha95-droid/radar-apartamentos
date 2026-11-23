@@ -116,13 +116,13 @@
   "rent_basis": "total",
   "groups": {
    "aluguel|Jardim Paulista": {
-    "n": 1067,
-    "ppm2": 95.11,
+    "n": 1066,
+    "ppm2": 95.08,
     "price": 10000
    },
    "aluguel|Outros na área": {
-    "n": 668,
-    "ppm2": 112.11,
+    "n": 670,
+    "ppm2": 111.97,
     "price": 14000
    }
   }
