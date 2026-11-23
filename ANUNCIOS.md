@@ -1,8 +1,8 @@
 # Anúncios atuais dentro dos critérios
 
-Atualizado em 23/11/2026 15:35 UTC · 591 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
+Atualizado em 23/11/2026 17:30 UTC · 589 anúncios. Orçamento: compra até sem limite, aluguel até R$ 12.000/mês. Critérios em [`config.yaml`](config.yaml).
 
-## Aluguel (591)
+## Aluguel (589)
 
 | Bairro | Área | Preço | Quartos | Fonte | Link |
 |---|---|---|---|---|---|
@@ -137,7 +137,6 @@ Atualizado em 23/11/2026 15:35 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 83 m² | R$ 7.298/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895043062) |
 | Jardim Paulista | 90 m² | R$ 7.300/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-escritorio-jardim-paulista-zona-sul-sao-paulo-sp-90m2-id-2920362055/) |
 | Jardim Paulista | 70 m² | R$ 7.300/mês | 1 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-1-quarto-com-piscina-jardim-america-zona-sul-sao-paulo-sp-70m2-id-2894545893/) |
-| Jardim Paulista | 110 m² | R$ 7.306/mês | 3 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361673/) |
 | Jardim Paulista | 75 m² | R$ 7.334/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-75m2-id-2920363049/) |
 | Jardim Paulista | 89 m² | R$ 7.336/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-89m2-id-2920361475/) |
 | Jardim Paulista | 110 m² | R$ 7.350/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920362152/) |
@@ -206,7 +205,6 @@ Atualizado em 23/11/2026 15:35 UTC · 591 anúncios. Orçamento: compra até sem
 | Jardim Paulista | 110 m² | R$ 7.960/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2920361763/) |
 | Cerqueira César | 85 m² | R$ 7.966/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/894571235) |
 | Jardim Europa | 77 m² | R$ 7.967/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895642119) |
-| Jardim Paulista | 108 m² | R$ 7.975/mês | 2 | quintoandar | [abrir](https://www.quintoandar.com.br/imovel/895709924) |
 | Jardim Paulista | 100 m² | R$ 7.980/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-jardim-paulista-zona-sul-sao-paulo-sp-100m2-id-2920361279/) |
 | Jardim Paulista | 130 m² | R$ 8.000/mês | 4 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-4-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-130m2-id-2920361477/) |
 | Cerqueira César | 105 m² | R$ 8.000/mês | 2 | zap | [abrir](https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-jardim-jardim-america-zona-sul-sao-paulo-sp-105m2-id-2922232869/) |
