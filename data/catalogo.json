@@ -146,7 +146,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 11384.0,
+  "total_monthly": 11474.0,
   "url": "https://www.quintoandar.com.br/imovel/892802020"
  },
  "quintoandar:aluguel:892817531": {
@@ -853,7 +853,7 @@
   "financing": null,
   "floor": null,
   "free_view": null,
-  "furnished": true,
+  "furnished": false,
   "geo_approx": false,
   "id": "892913855",
   "lat": -23.5790301,
@@ -10706,7 +10706,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 14755.0,
+  "total_monthly": 16313.0,
   "url": "https://www.quintoandar.com.br/imovel/895773580"
  },
  "quintoandar:aluguel:895774355": {
@@ -11516,7 +11516,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Itaim Bibi",
-  "total_monthly": 5125.0,
+  "total_monthly": 5042.0,
   "url": "https://www.quintoandar.com.br/imovel/895803403"
  },
  "quintoandar:aluguel:895803520": {
@@ -12026,7 +12026,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Itaim Bibi",
-  "total_monthly": 11701.0,
+  "total_monthly": 11565.0,
   "url": "https://www.quintoandar.com.br/imovel/895825597"
  },
  "quintoandar:aluguel:895827148": {
@@ -12206,7 +12206,7 @@
   "rounds": null,
   "source": "quintoandar",
   "title": "Apartamento em Jardim Paulista",
-  "total_monthly": 15166.0,
+  "total_monthly": 16205.0,
   "url": "https://www.quintoandar.com.br/imovel/895833770"
  },
  "quintoandar:aluguel:895834401": {
@@ -20565,7 +20565,7 @@
   "geo_approx": true,
   "id": "2896486998",
   "lat": -23.568,
-  "lon": -46.662,
+  "lon": -46.663,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 2,
@@ -22033,8 +22033,8 @@
   "furnished": null,
   "geo_approx": false,
   "id": "2904009698",
-  "lat": -23.56048,
-  "lon": -46.661574,
+  "lat": -23.560675,
+  "lon": -46.661463,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 3,
@@ -24912,8 +24912,8 @@
   "furnished": null,
   "geo_approx": true,
   "id": "2914200235",
-  "lat": -23.563,
-  "lon": -46.671,
+  "lat": -23.56,
+  "lon": -46.668,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 3,
@@ -42654,6 +42654,36 @@
   "total_monthly": 39934.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-piscina-jardim-paulista-zona-sul-sao-paulo-sp-206m2-id-2920412578/"
  },
+ "zap:aluguel:2920412743": {
+  "address": "Rua da Consolação 3625",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 340.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 4,
+  "business": "aluguel",
+  "condo": 7676.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": true,
+  "id": "2920412743",
+  "lat": -23.56,
+  "lon": -46.668,
+  "neighborhood": "Cerqueira César",
+  "occupied": null,
+  "parking": 3,
+  "pool": null,
+  "price": 25000.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 32676.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-4-quartos-com-interfone-cerqueira-cesar-centro-sao-paulo-sp-340m2-id-2920412743/"
+ },
  "zap:aluguel:2920412839": {
   "address": "Rua Pamplona 356",
   "air_conditioning": true,
@@ -43522,7 +43552,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920501739/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2920501739/"
  },
  "zap:aluguel:2920520938": {
   "address": "Alameda Campinas 701",
@@ -44321,8 +44351,8 @@
   "furnished": true,
   "geo_approx": true,
   "id": "2920806670",
-  "lat": -23.563,
-  "lon": -46.65,
+  "lat": -23.571,
+  "lon": -46.658,
   "neighborhood": "Jardim Paulista",
   "occupied": null,
   "parking": 1,
@@ -56823,7 +56853,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 6900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2922857432/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-elevador-jardim-paulista-zona-sul-sao-paulo-sp-110m2-id-2922857432/"
  },
  "zap:aluguel:2922857614": {
   "address": "Alameda Fernão Cardim 388",
@@ -57840,7 +57870,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 11500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922873878/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-jardim-paulista-zona-sul-sao-paulo-sp-225m2-id-2922873878/"
  },
  "zap:aluguel:2922873890": {
   "address": "Rua Barão de Capanema 76",
@@ -58709,7 +58739,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 12500.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-area-de-servico-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922875806/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-quarto-wc-empregada-jardim-paulista-zona-sul-sao-paulo-sp-170m2-id-2922875806/"
  },
  "zap:aluguel:2922875810": {
   "address": "Alameda Campinas 696",
@@ -58798,7 +58828,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 13039.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-bela-vista-centro-sao-paulo-sp-356m2-id-2922876066/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-cozinha-bela-vista-centro-sao-paulo-sp-356m2-id-2922876066/"
  },
  "zap:aluguel:2922876110": {
   "address": "Alameda Jaú 527",
@@ -66268,7 +66298,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 18900.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2923321052/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-acesso-24-horas-jardim-paulista-zona-sul-sao-paulo-sp-416m2-id-2923321052/"
  },
  "zap:aluguel:2923321388": {
   "address": "Rua Guarará 250",
@@ -69773,11 +69803,11 @@
   "occupied": null,
   "parking": 3,
   "pool": "predio",
-  "price": 14970.0,
+  "price": 15000.0,
   "rounds": null,
   "source": "zap",
   "title": "",
-  "total_monthly": 19099.0,
+  "total_monthly": 19129.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-4-quartos-com-piscina-jardim-paulista-zona-sul-sao-paulo-sp-209m2-id-2923626633/"
  },
  "zap:aluguel:2923632775": {
@@ -70138,7 +70168,7 @@
   "source": "zap",
   "title": "",
   "total_monthly": 10080.0,
-  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-salao-de-festas-jardim-paulista-zona-sul-sao-paulo-sp-220m2-id-2923871547/"
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-3-quartos-com-cozinha-jardim-paulista-zona-sul-sao-paulo-sp-220m2-id-2923871547/"
  },
  "zap:aluguel:2923872582": {
   "address": "Rua Bela Cintra 2060",
@@ -71268,7 +71298,7 @@
   "geo_approx": true,
   "id": "2923967103",
   "lat": -23.568,
-  "lon": -46.662,
+  "lon": -46.663,
   "neighborhood": "Cerqueira César",
   "occupied": null,
   "parking": 2,
@@ -71519,5 +71549,125 @@
   "title": "",
   "total_monthly": 15400.0,
   "url": "https://www.zapimoveis.com.br/imovel/aluguel-cobertura-2-quartos-com-piscina-jardim-paulista-zona-sul-sao-paulo-sp-87m2-id-2923971542/"
+ },
+ "zap:aluguel:2923979107": {
+  "address": "Alameda Franca 74",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 100.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 2,
+  "business": "aluguel",
+  "condo": 2645.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": true,
+  "geo_approx": false,
+  "id": "2923979107",
+  "lat": -23.568048,
+  "lon": -46.656125,
+  "neighborhood": "Jardim Paulista",
+  "occupied": null,
+  "parking": 1,
+  "pool": null,
+  "price": 10500.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 13145.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-100m2-id-2923979107/"
+ },
+ "zap:aluguel:2923982544": {
+  "address": "Alameda Casa Branca",
+  "air_conditioning": null,
+  "appraisal": null,
+  "area": 261.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 4,
+  "business": "aluguel",
+  "condo": 8800.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": true,
+  "id": "2923982544",
+  "lat": -23.569,
+  "lon": -46.662,
+  "neighborhood": "Jardim Paulista",
+  "occupied": null,
+  "parking": 4,
+  "pool": null,
+  "price": 55000.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 63800.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-4-quartos-jardim-paulista-zona-sul-sao-paulo-sp-261m2-id-2923982544/"
+ },
+ "zap:aluguel:2923987333": {
+  "address": "Alameda Franca 74",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 100.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 2,
+  "business": "aluguel",
+  "condo": 2645.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": true,
+  "geo_approx": false,
+  "id": "2923987333",
+  "lat": -23.568048,
+  "lon": -46.656125,
+  "neighborhood": "Jardim Paulista",
+  "occupied": null,
+  "parking": 1,
+  "pool": null,
+  "price": 10500.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 13145.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-mobiliado-jardim-paulista-zona-sul-sao-paulo-sp-100m2-id-2923987333/"
+ },
+ "zap:aluguel:2923988739": {
+  "address": "Rua Jerônimo da Veiga 50",
+  "air_conditioning": true,
+  "appraisal": null,
+  "area": 90.0,
+  "auction_kind": null,
+  "bbq": null,
+  "bedrooms": 2,
+  "business": "aluguel",
+  "condo": 2500.0,
+  "extra": "",
+  "financing": null,
+  "floor": null,
+  "free_view": null,
+  "furnished": null,
+  "geo_approx": false,
+  "id": "2923988739",
+  "lat": -23.581171,
+  "lon": -46.679549,
+  "neighborhood": "Jardim Europa",
+  "occupied": null,
+  "parking": 1,
+  "pool": null,
+  "price": 18000.0,
+  "rounds": null,
+  "source": "zap",
+  "title": "",
+  "total_monthly": 20500.0,
+  "url": "https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-com-academia-itaim-bibi-zona-sul-sao-paulo-sp-90m2-id-2923988739/"
  }
 }
