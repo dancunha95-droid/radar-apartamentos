@@ -181,12 +181,12 @@
   "groups": {
    "aluguel|Jardim Paulista": {
     "n": 1012,
-    "ppm2": 93.98,
+    "ppm2": 93.9,
     "price": 10000
    },
    "aluguel|Outros na área": {
-    "n": 507,
-    "ppm2": 114.29,
+    "n": 504,
+    "ppm2": 115.62,
     "price": 15200
    }
   }
